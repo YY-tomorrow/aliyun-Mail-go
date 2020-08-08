@@ -5,7 +5,7 @@
 
 * 使用:
 ```	
-profile := mail.GetProfile("cn-hangzhou", "<your accessKey>", "<your accessSecret>")
+    profile := mail.GetProfile("cn-hangzhou", "<your accessKey>", "<your accessSecret>")
  	client := mail.GetClient(profile)
  	client.Action("SingleSendMail")
  	client.AccountName("控制台创建的发信地址")
